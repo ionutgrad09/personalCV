@@ -12,8 +12,7 @@ import "./Main.scss";
 import Contact from "./contact/Contact";
 
 const Main = () => {
-  const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-  const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
+  const [isDark, setIsDark] = useLocalStorage("isDark", false);
 
   const changeTheme = () => {
     setIsDark(!isDark);
