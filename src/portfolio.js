@@ -173,11 +173,22 @@ const achievementSection = {
     {
       title: "Building Modern Projects with React",
       image: require("./assets/images/linkedin.webp"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "Linkedin Logo",
       footerLink: [
         {
           name: "Certification",
           url: "https://www.linkedin.com/learning/certificates/1b94659f017cce394eee24086d83f191dc86796b4e12b8679bf039228d842b29?trk=backfilled_certificate"
+        }
+      ]
+    },
+    {
+      title: "React: Using Typescript",
+      image: require("./assets/images/linkedin.webp"),
+      imageAlt: "Linkedin Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.linkedin.com/learning/certificates/3a1bcb107ef94ca8a5f94a7d7cf8ac1b7c4a2b2e8a3443a274c6dbecb9107dff"
         }
       ]
     }
