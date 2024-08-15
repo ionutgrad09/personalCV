@@ -67,7 +67,19 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Typescript / React", //Insert stack or technology you have experience in
+      Stack: "React", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Typescript", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Node JS", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "HTML / CSS", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
@@ -79,7 +91,7 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
-      Stack: "Databases",
+      Stack: "SQL Databases",
       progressPercentage: "80%"
     }
   ],
@@ -92,28 +104,21 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Fullstack Software Engineer",
-      company: "IT Teams",
-      companylogo: require("./assets/images/it_teams.png"),
-      date: "Oct 2022 – Present",
-      desc: "Currently, I am actively collaborating with a renowned client specializing in energy solutions and services. Within this role, I am leveraging my expertise in Java, Spring Boot, React TypeScript, and GraphQL to spearhead the development of innovative features and functionalities, enhancing the client's offerings and market competitiveness.",
+      role: "Fullstack Developer - Freelance / Contract",
+      company: "Self-Employed",
+      companylogo: require("./assets/images/self.png"),
+      date: "Apr 2021 – Present",
+      desc: "As a freelance full-stack developer, I have collaborated with various clients to deliver high-quality software solutions tailored to their unique needs. Leveraging my expertise in React JS, TypeScript, Java, Spring Framework, Node JS and GraphQL, I have successfully developed and deployed a wide range of applications, including e-commerce platforms, CRMs, and data management systems. I am adept at working independently and as part of a team, and I am committed to delivering exceptional results that drive business growth and success."
     },
     {
-      role: "Front-End Developer",
-      company: "Zenitech",
-      companylogo: require("./assets/images/zenitechteam_logo.jpeg"),
-      date: "Apr 2021 – Oct 2022",
-      desc: "I served as a key contributor to the development of a platform focused on enhancing employee engagement and experience for companies worldwide. Through my expertise in React TypeScript and GraphQL, I played a vital role in shaping the platform's capabilities. My efforts were instrumental in propelling the company's evolution from an international player to a global leader, significantly broadening its influence and presence across diverse markets worldwide."
-    },
-    {
-      role: "Fullstack Software Engineer",
+      role: "Fullstack Developer",
       company: "Micro Focus",
       companylogo: require("./assets/images/mf_logo.png"),
       date: "Sep 2018 - Apr 2021",
       desc: "As a full-stack software engineer, I made significant contributions to the advancement of a highly impactful Robotic Process Automation (RPA) platform. This platform serves as a cornerstone for numerous clients, enabling them to effortlessly design and execute workflows with software robots, thereby elevating operational efficiency and productivity across various sectors. Leveraging my expertise in Java, Spring, React, and TypeScript, I played a pivotal role in ensuring the platform's effectiveness and widespread adoption within diverse industries."
     },
     {
-      role: "Software Engineer Intern",
+      role: "Intern",
       company: "Micro Focus",
       companylogo: require("./assets/images/mf_logo.png"),
       date: "Jul 2018 - Sep 2018",
@@ -265,7 +270,6 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Let's get in touch! I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.",
-  number: "+40752490390",
   email_address: "ionutgrad101@gmail.com"
 };
 
