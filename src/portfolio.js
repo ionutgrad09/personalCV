@@ -33,7 +33,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  linkedin: "https://www.linkedin.com/in/ionut-adrian-grad-348959157/",
+  linkedin: "https://www.linkedin.com/in/ionut-grad-348959157/",
   gmail: "ionutgrad101@gmail.com",
   display: true // Set true to display this section, defaults to false
 };
@@ -75,15 +75,11 @@ const techStack = {
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Node JS", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      Stack: "Java",
+      progressPercentage: "90%"
     },
     {
-      Stack: "HTML / CSS", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Java / Spring Boot",
+      Stack: "Spring Boot",
       progressPercentage: "90%"
     },
     {
